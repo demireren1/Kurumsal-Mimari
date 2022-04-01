@@ -1,0 +1,21 @@
+package interfacess;
+
+public class CustomerManager {
+	private Logger logger;
+	
+	//loosly- tightly coupled
+	public void add(Customer customer) {
+		System.out.println("müþteri eklendi"+ customer.getFirstName());
+		
+		
+		
+	}
+	
+	public void delete(Customer customer) {
+		System.out.println("müþteri silindi"+ customer.getFirstName());
+		
+		
+		
+	}
+
+}
